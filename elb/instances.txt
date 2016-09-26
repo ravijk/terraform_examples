@@ -1,0 +1,572 @@
+{
+    "Images": [
+        {
+            "VirtualizationType": "hvm", 
+            "Name": "amzn-ami-vpc-nat-hvm-2014.09.1.x86_64-gp2", 
+            "Hypervisor": "xen", 
+            "ImageOwnerAlias": "amazon", 
+            "SriovNetSupport": "simple", 
+            "ImageId": "ami-184dc970", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-9e970f27", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "gp2", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "amazon/amzn-ami-vpc-nat-hvm-2014.09.1.x86_64-gp2", 
+            "RootDeviceType": "ebs", 
+            "OwnerId": "137112412989", 
+            "RootDeviceName": "/dev/xvda", 
+            "CreationDate": "2014-10-21T16:50:54.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "Amazon Linux AMI 2014.09.1 x86_64 VPC NAT HVM GP2"
+        }, 
+        {
+            "VirtualizationType": "paravirtual", 
+            "Name": "amzn-ami-vpc-nat-pv-2014.09.1.x86_64-ebs", 
+            "Hypervisor": "xen", 
+            "ImageOwnerAlias": "amazon", 
+            "ImageId": "ami-224dc94a", 
+            "RootDeviceType": "ebs", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-df910966", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "standard", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "amazon/amzn-ami-vpc-nat-pv-2014.09.1.x86_64-ebs", 
+            "KernelId": "aki-919dcaf8", 
+            "OwnerId": "137112412989", 
+            "RootDeviceName": "/dev/sda1", 
+            "CreationDate": "2014-10-21T16:48:53.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "Amazon Linux AMI 2014.09.1 x86_64 VPC NAT PV EBS"
+        }, 
+        {
+            "VirtualizationType": "hvm", 
+            "Name": "amzn-ami-vpc-nat-hvm-2015.03.0.x86_64-gp2", 
+            "Hypervisor": "xen", 
+            "ImageOwnerAlias": "amazon", 
+            "SriovNetSupport": "simple", 
+            "ImageId": "ami-303b1458", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-ad852028", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "gp2", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "amazon/amzn-ami-vpc-nat-hvm-2015.03.0.x86_64-gp2", 
+            "RootDeviceType": "ebs", 
+            "OwnerId": "137112412989", 
+            "RootDeviceName": "/dev/xvda", 
+            "CreationDate": "2015-03-20T20:25:37.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "Amazon Linux AMI VPC NAT x86_64 HVM GP2"
+        }, 
+        {
+            "VirtualizationType": "hvm", 
+            "Name": "amzn-ami-vpc-nat-hvm-2016.03.0.x86_64-ebs", 
+            "Hypervisor": "xen", 
+            "ImageOwnerAlias": "amazon", 
+            "SriovNetSupport": "simple", 
+            "ImageId": "ami-311a1a5b", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-b8c37d2e", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "standard", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "amazon/amzn-ami-vpc-nat-hvm-2016.03.0.x86_64-ebs", 
+            "RootDeviceType": "ebs", 
+            "OwnerId": "137112412989", 
+            "RootDeviceName": "/dev/xvda", 
+            "CreationDate": "2016-03-17T00:42:42.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "Amazon Linux AMI 2016.03.0 x86_64 VPC NAT HVM EBS"
+        }, 
+        {
+            "VirtualizationType": "hvm", 
+            "Name": "amzn-ami-vpc-nat-hvm-2016.09.rc-0.20160910-x86_64-ebs", 
+            "Hypervisor": "xen", 
+            "ImageOwnerAlias": "amazon", 
+            "ImageId": "ami-476f1e50", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-c342bd5a", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "standard", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "amazon/amzn-ami-vpc-nat-hvm-2016.09.rc-0.20160910-x86_64-ebs", 
+            "RootDeviceType": "ebs", 
+            "OwnerId": "137112412989", 
+            "RootDeviceName": "/dev/xvda", 
+            "CreationDate": "2016-09-11T02:53:25.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "Amazon Linux AMI 2016.09.rc-0.20160910 x86_64 VPC NAT HVM EBS"
+        }, 
+        {
+            "VirtualizationType": "hvm", 
+            "Name": "amzn-ami-vpc-nat-hvm-2016.03.3.x86_64-ebs", 
+            "Hypervisor": "xen", 
+            "ImageOwnerAlias": "amazon", 
+            "EnaSupport": true, 
+            "SriovNetSupport": "simple", 
+            "ImageId": "ami-4868ab25", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-d6c10731", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "standard", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "amazon/amzn-ami-vpc-nat-hvm-2016.03.3.x86_64-ebs", 
+            "RootDeviceType": "ebs", 
+            "OwnerId": "137112412989", 
+            "RootDeviceName": "/dev/xvda", 
+            "CreationDate": "2016-06-22T06:11:57.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "Amazon Linux AMI 2016.03.3 x86_64 VPC NAT HVM EBS"
+        }, 
+        {
+            "VirtualizationType": "hvm", 
+            "Name": "amzn-ami-vpc-nat-hvm-2014.03.2.x86_64-ebs", 
+            "Hypervisor": "xen", 
+            "ImageOwnerAlias": "amazon", 
+            "SriovNetSupport": "simple", 
+            "ImageId": "ami-4c9e4b24", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-622f02cf", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "standard", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "amazon/amzn-ami-vpc-nat-hvm-2014.03.2.x86_64-ebs", 
+            "RootDeviceType": "ebs", 
+            "OwnerId": "137112412989", 
+            "RootDeviceName": "/dev/xvda", 
+            "CreationDate": "2014-07-29T16:39:14.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "Amazon Linux AMI VPC NAT x86_64 HVM EBS"
+        }, 
+        {
+            "VirtualizationType": "paravirtual", 
+            "Name": "amzn-ami-vpc-nat-pv-2013.03.1.x86_64-ebs", 
+            "Hypervisor": "xen", 
+            "ImageOwnerAlias": "amazon", 
+            "ImageId": "ami-4f9fee26", 
+            "RootDeviceType": "ebs", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-68280236", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "standard", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "amazon/amzn-ami-vpc-nat-pv-2013.03.1.x86_64-ebs", 
+            "KernelId": "aki-88aa75e1", 
+            "OwnerId": "137112412989", 
+            "RootDeviceName": "/dev/sda1", 
+            "CreationDate": "2013-06-19T15:24:58.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "Amazon Linux AMI VPC NAT x86_64 PV"
+        }, 
+        {
+            "VirtualizationType": "hvm", 
+            "Name": "amzn-ami-vpc-nat-hvm-2015.09.1.x86_64-ebs", 
+            "Hypervisor": "xen", 
+            "ImageOwnerAlias": "amazon", 
+            "SriovNetSupport": "simple", 
+            "ImageId": "ami-68115b02", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-84e74112", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "standard", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "amazon/amzn-ami-vpc-nat-hvm-2015.09.1.x86_64-ebs", 
+            "RootDeviceType": "ebs", 
+            "OwnerId": "137112412989", 
+            "RootDeviceName": "/dev/xvda", 
+            "CreationDate": "2015-12-14T18:15:41.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "Amazon Linux AMI 2015.09.1 x86_64 VPC NAT HVM EBS"
+        }, 
+        {
+            "VirtualizationType": "hvm", 
+            "Name": "amzn-ami-vpc-nat-hvm-2014.03.2.x86_64-gp2", 
+            "Hypervisor": "xen", 
+            "ImageOwnerAlias": "amazon", 
+            "SriovNetSupport": "simple", 
+            "ImageId": "ami-6e9e4b06", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-945b7639", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "gp2", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "amazon/amzn-ami-vpc-nat-hvm-2014.03.2.x86_64-gp2", 
+            "RootDeviceType": "ebs", 
+            "OwnerId": "137112412989", 
+            "RootDeviceName": "/dev/xvda", 
+            "CreationDate": "2014-07-29T16:36:43.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "Amazon Linux AMI VPC NAT x86_64 HVM GP2"
+        }, 
+        {
+            "VirtualizationType": "paravirtual", 
+            "Name": "amzn-ami-vpc-nat-pv-2014.03.2.x86_64-ebs", 
+            "Hypervisor": "xen", 
+            "ImageOwnerAlias": "amazon", 
+            "ImageId": "ami-809f4ae8", 
+            "RootDeviceType": "ebs", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-e4446949", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "standard", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "amazon/amzn-ami-vpc-nat-pv-2014.03.2.x86_64-ebs", 
+            "KernelId": "aki-919dcaf8", 
+            "OwnerId": "137112412989", 
+            "RootDeviceName": "/dev/sda1", 
+            "CreationDate": "2014-07-29T16:33:10.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "Amazon Linux AMI VPC NAT x86_64 PV EBS"
+        }, 
+        {
+            "VirtualizationType": "hvm", 
+            "Name": "amzn-ami-vpc-nat-hvm-2016.03.2.x86_64-ebs", 
+            "Hypervisor": "xen", 
+            "ImageOwnerAlias": "amazon", 
+            "SriovNetSupport": "simple", 
+            "ImageId": "ami-8d8976e0", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-56c4b258", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "standard", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "amazon/amzn-ami-vpc-nat-hvm-2016.03.2.x86_64-ebs", 
+            "RootDeviceType": "ebs", 
+            "OwnerId": "137112412989", 
+            "RootDeviceName": "/dev/xvda", 
+            "CreationDate": "2016-06-03T23:22:07.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "Amazon Linux AMI 2016.03.2 x86_64 VPC NAT HVM EBS"
+        }, 
+        {
+            "VirtualizationType": "hvm", 
+            "Name": "amzn-ami-vpc-nat-hvm-2015.09.2.x86_64-ebs", 
+            "Hypervisor": "xen", 
+            "ImageOwnerAlias": "amazon", 
+            "SriovNetSupport": "simple", 
+            "ImageId": "ami-a7f5dfcd", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-ee1da978", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "standard", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "amazon/amzn-ami-vpc-nat-hvm-2015.09.2.x86_64-ebs", 
+            "RootDeviceType": "ebs", 
+            "OwnerId": "137112412989", 
+            "RootDeviceName": "/dev/xvda", 
+            "CreationDate": "2016-02-10T22:21:19.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "Amazon Linux AMI 2015.09.2 x86_64 VPC NAT HVM EBS"
+        }, 
+        {
+            "VirtualizationType": "paravirtual", 
+            "Name": "amzn-ami-vpc-nat-pv-2013.09.0.x86_64-ebs", 
+            "Hypervisor": "xen", 
+            "ImageOwnerAlias": "amazon", 
+            "ImageId": "ami-ad227cc4", 
+            "RootDeviceType": "ebs", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-9ed6889a", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "standard", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "amazon/amzn-ami-vpc-nat-pv-2013.09.0.x86_64-ebs", 
+            "KernelId": "aki-919dcaf8", 
+            "OwnerId": "137112412989", 
+            "RootDeviceName": "/dev/sda1", 
+            "CreationDate": "2013-10-28T20:05:21.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "Amazon Linux AMI VPC NAT x86_64 PV"
+        }, 
+        {
+            "VirtualizationType": "hvm", 
+            "Name": "amzn-ami-vpc-nat-hvm-2015.03.0.x86_64-ebs", 
+            "Hypervisor": "xen", 
+            "ImageOwnerAlias": "amazon", 
+            "SriovNetSupport": "simple", 
+            "ImageId": "ami-b0210ed8", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-3b0ed4be", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "standard", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "amazon/amzn-ami-vpc-nat-hvm-2015.03.0.x86_64-ebs", 
+            "RootDeviceType": "ebs", 
+            "OwnerId": "137112412989", 
+            "RootDeviceName": "/dev/xvda", 
+            "CreationDate": "2015-03-20T19:35:21.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "Amazon Linux AMI VPC NAT x86_64 HVM"
+        }, 
+        {
+            "VirtualizationType": "hvm", 
+            "Name": "amzn-ami-vpc-nat-hvm-2015.03.0.x86_64-gp2plus", 
+            "Hypervisor": "xen", 
+            "SriovNetSupport": "simple", 
+            "ImageId": "ami-ba3949d0", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-7df697ea", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "gp2", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "653013080510/amzn-ami-vpc-nat-hvm-2015.03.0.x86_64-gp2plus", 
+            "RootDeviceType": "ebs", 
+            "OwnerId": "653013080510", 
+            "RootDeviceName": "/dev/xvda", 
+            "CreationDate": "2015-10-28T23:53:01.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "[Copied ami-d14a5eb0 from us-west-2] amzn-ami-vpc-nat-hvm-2015.03.0.x86_64-gp2plus"
+        }, 
+        {
+            "VirtualizationType": "hvm", 
+            "Name": "amzn-ami-vpc-nat-hvm-2016.03.1.x86_64-ebs", 
+            "Hypervisor": "xen", 
+            "ImageOwnerAlias": "amazon", 
+            "SriovNetSupport": "simple", 
+            "ImageId": "ami-bae80fd7", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-32ef9237", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "standard", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "amazon/amzn-ami-vpc-nat-hvm-2016.03.1.x86_64-ebs", 
+            "RootDeviceType": "ebs", 
+            "OwnerId": "137112412989", 
+            "RootDeviceName": "/dev/xvda", 
+            "CreationDate": "2016-04-30T00:38:57.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "Amazon Linux AMI 2016.03.1 x86_64 VPC NAT HVM EBS"
+        }, 
+        {
+            "VirtualizationType": "paravirtual", 
+            "Name": "amzn-ami-vpc-nat-pv-2015.03.0.x86_64-ebs", 
+            "Hypervisor": "xen", 
+            "ImageOwnerAlias": "amazon", 
+            "ImageId": "ami-c02b04a8", 
+            "RootDeviceType": "ebs", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/sda1", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-596eb6dc", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "standard", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "amazon/amzn-ami-vpc-nat-pv-2015.03.0.x86_64-ebs", 
+            "KernelId": "aki-919dcaf8", 
+            "OwnerId": "137112412989", 
+            "RootDeviceName": "/dev/sda1", 
+            "CreationDate": "2015-03-20T17:54:35.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "Amazon Linux AMI VPC NAT x86_64 PV"
+        }, 
+        {
+            "VirtualizationType": "hvm", 
+            "Name": "amzn-ami-vpc-nat-hvm-2015.05.test", 
+            "Hypervisor": "xen", 
+            "SriovNetSupport": "simple", 
+            "ImageId": "ami-e992d483", 
+            "State": "available", 
+            "BlockDeviceMappings": [
+                {
+                    "DeviceName": "/dev/xvda", 
+                    "Ebs": {
+                        "DeleteOnTermination": true, 
+                        "SnapshotId": "snap-9638cbe3", 
+                        "VolumeSize": 8, 
+                        "VolumeType": "gp2", 
+                        "Encrypted": false
+                    }
+                }
+            ], 
+            "Architecture": "x86_64", 
+            "ImageLocation": "248106137926/amzn-ami-vpc-nat-hvm-2015.05.test", 
+            "RootDeviceType": "ebs", 
+            "OwnerId": "248106137926", 
+            "RootDeviceName": "/dev/xvda", 
+            "CreationDate": "2015-11-23T21:58:41.000Z", 
+            "Public": true, 
+            "ImageType": "machine", 
+            "Description": "amzn-ami-vpc-nat-hvm-2015.05.test"
+        }
+    ]
+}
